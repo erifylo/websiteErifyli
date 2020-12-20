@@ -1,0 +1,86 @@
+.upperPart {
+    padding-top: 40px !important;
+    
+    background-image: linear-gradient(rgba(0,138,196,0.77), rgba(90, 105, 105, 0.6)), url("../images/vitor-monteiro-jiAv24Lc3T0-unsplash.jpg");
+
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 500px;
+}
+
+.upperPart h1, h2 {
+    color: #ffffff;
+    text-align: center;   
+}
+
+.upperPart h1 {
+    margin-top: 50px;
+    font-size: 60px
+}
+
+.upperPart  h2 {
+    font-size: 50px
+}
+
+.buttonBox {
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+
+.profilePhoto img {
+    height: 300px
+}
+
+.whoAmI {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    background-color:#eaecec
+}
+
+.profileText {
+    margin-left: 50px;
+}
+
+.polaroid section {
+    background: #ffffff;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+    
+  }
+  .polaroid {
+    margin-top: -50px;
+  }
+  .polaroid section:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+  .polaroid img {
+    display: block;
+    width: 250px;
+  }
+  .polaroid section:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
