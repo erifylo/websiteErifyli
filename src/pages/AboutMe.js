@@ -4,7 +4,7 @@ import "./AboutMe.css"
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="aboutMe">
       <Navbar />
       <div className="container">
         <div className="main-timeline">
