@@ -28,6 +28,8 @@ export default function Navbar() {
           </Link>
           </li>
 
+          <li class="nav-item"><Link to="/projects" class="nav-link"> Projects </Link></li>
+
           <li class="nav-item"> 
         <Link to="/contact" class="nav-link">
             Contact 
@@ -35,7 +37,7 @@ export default function Navbar() {
           </li>
 
         
-        <li class="nav-item"><Link to="/projects" class="nav-link"> Projects </Link></li>
+      
        
       </ul>
       </div>
