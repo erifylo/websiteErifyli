@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootswatch/dist/sketchy/bootstrap.css";
+import "./Navbar.css";
 import $ from 'jquery';
 import Popper from 'popper.js';
 
